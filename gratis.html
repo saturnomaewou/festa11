@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgba(255, 119, 255, 0.429);
+            color: #000000;
+            font-family: Arial, sans-serif;
+            text-align: center; /* Centraliza o texto */
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #3a77da;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        li {
+            font-size: 18px;
+            margin: 10px;
+            text-align: center;
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 150px;
+        }
+        img {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            border-radius: 15px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #3a77da;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2b5ea6;
+        }
+    </style>
+</head>
+<body>
+    <h1>As comidas serão oferecidas pela escola</h1>
+    <p>Comidas que estarão disponíveis:</p>
+        <ul>
+            <li class="item">
+                <img src="pipoca.png" alt="Pipoca">
+                <span>Pipoca</span>
+            </li>
+            <li class="item">
+                <img src="quentao.jpg" alt="Quentão sem álcool">
+                <span>Quentão sem álcool</span>
+            </li>
+            <li class="item">
+                <img src="algodoce.jpg" alt="Algodão doce">
+                <span>Algodão doce</span>
+            </li>
+        </ul>
+    <button onclick="window.location.href='index.html'">Voltar</button>
+</body>
+</html>

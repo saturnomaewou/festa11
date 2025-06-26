@@ -1,0 +1,55 @@
+/* Estilização geral */
+body {
+    background-image: url('Fundo de imagem festa junina A4.jpg');
+    background-color: #e2e2d6;
+    background-size: cover; /* Ou "contain", dependendo do efeito desejado */
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilização do cabeçalho */
+header {
+    background-color: #296701;
+    color: rgb(243, 255, 249);
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Seções */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 167, 128, 0.9); /* Leve transparência */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(245, 241, 241);
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Lista da programação */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #255a4b;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #296701;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

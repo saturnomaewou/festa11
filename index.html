@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festa Junina do CECM</title>
+  <style>
+    body {
+      background-image: url('Fundo de imagem festa junina A4.jpg');
+      background-color: #e2e2d6;
+      background-size: cover;      /* Faz a imagem cobrir toda a tela */
+      background-position: center; /* Centraliza a imagem */
+      background-repeat: no-repeat;/* Evita a repetição da imagem */
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      background-color: #3a77da;
+      color: rgb(243, 255, 249);
+      padding: 20px;
+      font-size: 24px;
+    }
+    section {
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgb(255, 0, 0);
+      max-width: 800px;
+    }
+    /* Estilizando os botões da seção "Sobre a Festa" */
+    section h2 + button,
+    section h2 ~ button {
+      font-size: 1.2em;
+      padding: 5px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 8px;
+      background-color: #3a77da;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 0 10px rgb(103, 103, 103);
+    }
+    section h2 + button:hover,
+    section h2 ~ button:hover {
+      background-color: #2a5a99;
+    }
+    .titulo{
+      background-color: #3a77da;
+      color: white;
+      border-radius: 15px;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div id="titulo">
+      <h1>Festa Junina em Julho do CECM - 11 de Outubro</h1>
+    </div>
+  </header>
+
+  <section>
+    <h2>Sobre a Festa</h2>
+    <button onclick="window.location.href='comispg.html'">Comidas Pagas</button>
+    <button onclick="window.location.href='gratis.html'">Comidas Gratis</button>
+    <button onclick="window.location.href='vestimentas.html'">Vestimentas</button>
+    <button onclick="window.location.href='brincadeiras.html'">Brincadeiras</button>
+    <button onclick="window.location.href='adoações.html'">Doações</button>
+    <button onclick="window.location.href='dança.html'">Danças</button>
+    <button onclick="window.location.href='desfile.html'">Desfiles</button>
+  </section>
+
+  <section>
+    <h2> Dia 09/07 Quarta-feira:Programação</h2>
+    <h3>Manhã</h3>
+    <ul>
+      <li>06:45 - Entrada.</li>
+      <li>09:00 - Inicio do evento.</li>
+      <li>Indefinido - Apresentação da quadrilha.</li>
+      <li>Indefinido - Concurso de traje caipira.</li>
+      <li>Indefinido - Sorteio de brindes.</li>
+      <li>12:20 - Fim do evento.</li>
+    </ul>
+    <h3>Tarde</h3>
+    <ul>
+      <li>12:45 - Entrada.</li>
+      <li>14:30 - Inicio do evento.</li>
+      <li>Indefinido - Apresentação da quadrilha.</li>
+      <li>Indefinido - Concurso de traje caipira.</li>
+      <li>Indefinido - Sorteio de brindes.</li>
+      <li>18:15 - Fim do evento.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Local</h2>
+    <ul>
+      <li>O evento acontecerá na quadra da escola CECM 11 de outubro!</li>
+    </ul>
+  </section>
+
+  <!--
+  <footer>
+    <p>&copy; 2025 CECM - Todos os direitos reservados</p>
+  </footer>
+  -->
+</body>
+</html>

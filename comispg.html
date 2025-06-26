@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comis</title>
+    <style>
+        body {
+            background-color: rgba(30, 244, 255, 0.429);
+            color: #000000;
+            font-family: Arial, sans-serif;
+            text-align: center; /* Centraliza o texto */
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color:rgb(255, 119, 255);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        li {
+            font-size: 18px;
+            margin: 10px;
+            text-align: center;
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 150px;
+        }
+        img {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            border-radius: 15px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #cb26e5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #8d03a2;
+        }
+    </style>
+</head>
+<body>
+    <h1>A venda dos produtos será feita pela escola</h1>
+    <p>Comidas que estarão disponíveis:</p>
+    <ul>
+
+        <li class="item">
+            <img src="bolo.png" alt="Bolo">
+            <span>Bolo</span>
+        </li>
+        <li class="item">
+            <img src="pastel.jpg" alt="Pastel">
+            <span>Pastel</span>
+        </li>
+
+        <li class="item">
+            <img src="cachorro.jpg" alt="Cachorro quente">
+            <span>Cachorro quente</span>
+        </li>
+        <li class="item">
+            <img src="latas.png" alt="refrigerante">
+            <span>Refrigerante</span>
+        </li>
+        <li class="item">
+            <img src="suco.jpg" alt="suco">
+            <span>Sucos</span>
+        </li>
+    </ul>
+    <button onclick="window.location.href='index.html'">Voltar</button>
+</body>
+</html>
