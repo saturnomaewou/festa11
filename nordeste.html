@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
@@ -17,47 +13,62 @@
       background-color: #ffffff;
       color: #333;
     }
+
     header, footer {
       background-color: #d30000;
-      color: rgb(255, 255, 255);
+      color: #fff;
       text-align: center;
       padding: 1rem 0;
     }
+
     nav {
       background-color: #694109;
       padding: 0.5rem;
       text-align: center;
     }
+
     nav a {
-      color: rgb(255, 255, 255);
+      color: #fff;
       margin: 0 1rem;
       text-decoration: none;
       font-weight: bold;
     }
+
     main {
       max-width: 800px;
       margin: 2rem auto;
       padding: 0 1rem;
     }
+
+    /* seção com imagem ao lado */
     section {
       margin-bottom: 2rem;
       padding-bottom: 1rem;
-      border-bottom: 1px solid #000000;
+      border-bottom: 1px solid #000;
+      overflow: auto; /* contém o float */
     }
+
+    section img {
+      float: left;
+      margin-right: 1rem;
+      width: 150px;
+      height: auto;
+      border-radius: 4px;
+    }
+
     h2 {
       color: #603112;
       margin-top: 0;
     }
+
     ul, ol {
       margin-left: 1.5rem;
     }
+
     .ingredientes, .modo-preparo {
       margin-top: 0.5rem;
     }
-    footer p {
-      margin: 0.5rem 0;
-      font-size: 0.9rem;
-    }
+
     button {
       padding: 10px 20px;
       font-size: 1em;
@@ -68,13 +79,14 @@
       cursor: pointer;
       margin-top: 20px;
     }
+
     button:hover {
       background-color: #9b3e2b;
     }
   </style>
 </head>
-<body>
 
+<body>
   <header>
     <h1>Receitas Típicas Nordestinas</h1>
     <p>Uma viagem de sabores pelas regiões do Nordeste brasileiro</p>
@@ -90,6 +102,7 @@
 
   <main>
     <section id="baiao-de-dois">
+      <img src="baiao.jpg" alt="Baião de Dois">
       <h2>Baião de Dois</h2>
       <h3 class="ingredientes">Ingredientes</h3>
       <ul>
@@ -114,6 +127,7 @@
     </section>
 
     <section id="carne-de-sol">
+      <img src="carne de sol.jpeg" alt="Carne de Sol com Macaxeira">
       <h2>Carne de Sol com Macaxeira</h2>
       <h3 class="ingredientes">Ingredientes</h3>
       <ul>
@@ -135,6 +149,7 @@
     </section>
 
     <section id="acaraje">
+      <img src="acaraje.jpg" alt="Acarajé">
       <h2>Acarajé</h2>
       <h3 class="ingredientes">Ingredientes</h3>
       <ul>
@@ -151,7 +166,9 @@
         <li>Abra o bolinho ao meio e coloque vatapá, caruru e camarão a gosto.</li>
       </ol>
     </section>
+
     <section id="tapioca">
+      <img src="tapioca.jpeg" alt="Tapioca">
       <h2>Tapioca</h2>
       <h3 class="ingredientes">Ingredientes</h3>
       <ul>
@@ -168,6 +185,7 @@
     </section>
 
     <section id="bolo-de-milho">
+      <img src="milho.jpg" alt="Bolo de Milho">
       <h2>Bolo de Milho</h2>
       <h3 class="ingredientes">Ingredientes</h3>
       <ul>
@@ -187,10 +205,13 @@
       </ol>
     </section>
   </main>
-<button onclick="window.location.href='index.html'">Voltar</button>
+
+  <button onclick="window.location.href='index.html'">Voltar</button>
+
   <footer>
     <p>Desfrute dos sabores autênticos do Nordeste brasileiro!</p>
     <p>&copy; 2025 Receitas Nordestinas</p>
-  </footer>    
+  </footer>
 </body>
 </html>
+```
